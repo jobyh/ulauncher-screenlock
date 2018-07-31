@@ -1,0 +1,20 @@
+{
+  "manifest_version": "2",
+  "api_version": "1",
+  "name": "Screen Locker",
+  "description": "Adds screen lock and restart options to Ulauncher",
+  "developer_name": "Joby Harding",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "lockscreen",
+      "type": "keyword",
+      "name": "Lock",
+      "description": "Lock Screen",
+      "default_value": "lock"
+    }
+  ]
+}
